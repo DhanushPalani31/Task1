@@ -6,7 +6,9 @@
 body::-webkit-scrollbar {
     display: none;
 }
-
+/* html, body {
+  overflow-x: hidden;  
+} */
 
 
 @font-face {
@@ -57,13 +59,9 @@ body::-webkit-scrollbar {
 .page1{
   width: 1920px;
   height: 999px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 header{
-    margin: 0px 330px auto;
+    margin: 0px auto;
     width: 1170px;
     height: 114px;
     display: flex;
@@ -133,7 +131,7 @@ header{
     display: flex;
     align-items: center;
     justify-content:center;
-
+    margin-left: 100px;
 
 }
 .cont1{
@@ -1132,7 +1130,7 @@ header{
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
 .page7-cont2-box2{
